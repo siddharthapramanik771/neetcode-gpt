@@ -3,8 +3,6 @@ from numpy.typing import NDArray
 
 
 class Solution:
-    def relu(z):
-        return max(0.0, z)
     def forward(self, x: NDArray[np.float64], w: NDArray[np.float64], b: float, activation: str) -> float:
         # x: 1D input array
         # w: 1D weight array (same length as x)
